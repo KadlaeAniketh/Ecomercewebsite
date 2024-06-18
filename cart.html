@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patilmenswear</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="ani1.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="logo/img.logo.png" class="logo" height="70px" width="100px" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>Leave a message, we love to hear you!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Products</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#" class="remove"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Products/singlep/shirt1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td class="price">900</td>
+                    <td><input type="number" value="1" min="1" class="quantity"></td>
+                    <td class="subtotal">900</td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="remove"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Products/singlep/shirt1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td class="price">900</td>
+                    <td><input type="number" value="1" min="1" class="quantity"></td>
+                    <td class="subtotal">900</td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="remove"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Products/singlep/shirt1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td class="price">900</td>
+                    <td><input type="number" value="1" min="1" class="quantity"></td>
+                    <td class="subtotal">900</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td id="cart-subtotal">2700 Rs</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td id="cart-total"><strong>2700 Rs</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo/img.logo.png" width="100px" height="100px" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 504102 Tanoor, Dist: Nirmal</p>
+            <p><strong>Phone:</strong> 9822994435</p>
+            <div class="Follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Payment Method</h4>
+            <p>From Paytm, Google Pay, PhonePe, Amazon Pay</p>
+            <p>Secure Payment</p>
+            <div class="row">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
